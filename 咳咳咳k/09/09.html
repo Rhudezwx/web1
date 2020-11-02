@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>布局</title>
+    <style>
+        .main{
+            border:5px solid pink;
+            text-align: center;
+            width:1000px;
+            height:100px;
+        }
+        .top{
+            display:inline-block;
+            background-color:red;
+            width:1000px;
+            height:100px;
+
+        }
+        .title{
+            background-color:rgb(238, 237, 170);
+            height:50px;
+            line-height: 50px;
+        }
+        .menuWrapper {
+            background-color:palegoldenrod;
+        }
+        .submenu {
+            display:inline-block;
+            background-color:rgb(255, 230, 0);
+            width:150px;
+            height:50px;
+            line-height: 50px;
+            text-align: center;
+            margin:0 20px;
+        }
+    </style>
+</head>
+
+<body>
+        <h1> 考试</h1>
+        <caption><big>题目一</big></caption>
+        <!--第一行-->
+        <div class="main">
+            <div class="top">
+                <div class="title">江西软件职业技术大学</div>
+                <div class="menuWrapper">
+                    <div class="submenu">学校概况</div>
+                    <div class="submenu">新闻中心</div>
+                    <div class="submenu">机构设置</div>
+                    <div class="submenu">师资队伍</div>
+                    <div class="submenu">联系我们</div>
+                </div>
+            </div>
+        </div>
+    
+        <!--第二行-->
+        <table border="1"  width="1000px" height="450px"cellspacing="40px"kk >
+        <tr align="center">
+            <td >软件工程学院</td>
+            <td >网络工程学院</td>
+            <td >信息技术学院</td>
+        </tr>
+        <tr align="center">
+            <td >经济管理学院</td>
+            <td >区块链学院</td>
+            <td >VR与艺术学院</td>
+        </tr>
+        <tr align="center">
+            <td >新媒体学院</td>
+            <td >国际学院</td>
+            <td >软件工程学院</td>
+        </tr>
+    </table>
+        <!--第三行-->
+        <table border="1" width="1000px"height="100px">
+            <tr>
+                <td>学校地址：江西省南昌市先锋创客小镇<br>邮编：330041</td>
+            </tr>
+        </table>
+</body>
+</html>
